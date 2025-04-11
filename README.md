@@ -1,4 +1,3 @@
-```markdown
 # Gestion des règles NFTables
 
 ## Description
@@ -58,7 +57,7 @@ Le script affiche un menu interactif avec les options suivantes :
 3. Confirmez la suppression.
 
 ## Logs
-Le script génère un fichier de log situé dans `/var/log/portforward_nft.log`. Ce fichier contient des informations sur :
+Le script génère un fichier de log situé dans `/var/log/nft.log`. Ce fichier contient des informations sur :
 - Les actions effectuées (ajout/suppression de règles).
 - Les erreurs ou avertissements rencontrés.
 
@@ -92,4 +91,4 @@ Ce projet est sous licence MIT. Vous êtes libre d'utiliser, modifier et redistr
 
 ## Auteur
 Script développé par SI H3Campus.
-```
+
