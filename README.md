@@ -19,7 +19,7 @@ Avant d'utiliser ce script, assurez-vous que :
 ## Installation
 1. Clonez le dépôt GitHub contenant ce script :
    ```bash
-   git clone https://github.com/h3-campus/nft.git
+   git clone [https://github.com/h3-campus/nft.git](https://github.com/jfontaine35/nft.sh.git)
    cd nft
    ```
 
