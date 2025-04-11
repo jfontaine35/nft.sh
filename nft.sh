@@ -55,7 +55,6 @@ afficher_menu_sauvegardes() {
     echo -e -n "${GRAS}${JAUNE}Entrez le numéro de votre choix : ${RESET}"
     read choix_sauvegarde
 }
-
 # Fonction pour lister les règles de forwarding avec les ports et IP
 lister_ports_et_ip() {
     echo -e "${GRAS}${CYAN}Liste des règles de forwarding avec détails :${RESET}"
@@ -182,7 +181,6 @@ ajouter_port() {
         ecrire_log "ERREUR" "Échec de l'ajout de la règle NAT: $resultat_nat"
     fi
 }
-
 # Fonction pour afficher les logs
 afficher_logs() {
     echo -e "${GRAS}${CYAN}Logs de l'application${RESET}"
@@ -386,7 +384,6 @@ restaurer_sauvegarde() {
         ecrire_log "INFO" "Restauration annulée"
     fi
 }
-
 # Fonction pour supprimer une sauvegarde
 supprimer_sauvegarde() {
     echo -e "${GRAS}${CYAN}Suppression d'une sauvegarde${RESET}"
@@ -552,7 +549,7 @@ setup_nftables() {
         sudo sysctl -w net.ipv4.ip_forward=1
         sudo sh -c 'echo "net.ipv4.ip_forward=1" >> /etc/sysctl.conf'
         sudo sysctl -p
-        ecrire_log "INFO" "Forwarding IP activé
+        ecrire_log "INFO" "Forwarding IP activé"
     fi
 }
 
