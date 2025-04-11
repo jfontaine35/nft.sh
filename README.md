@@ -1,7 +1,7 @@
 # Gestion des règles NFTables
 
 ## Description
-Ce script Bash permet de gérer les règles de redirection de ports (port forwarding) avec NFTables. Il offre une interface interactive en ligne de commande pour lister, ajouter, supprimer des règles de forwarding et afficher les logs associés.
+Ce script Bash permet de gérer les règles de redirection de ports (port forwarding) avec NFTables. Il offre une interface interactive en ligne de commande pour lister, ajouter, supprimer des règles de forwarding et afficher les logs associés. Ce script permet aussi de faire des sauvergardes de la configuration.
 
 ## Fonctionnalités principales
 - Lister les règles existantes avec les détails des IP source/destination et des ports.
