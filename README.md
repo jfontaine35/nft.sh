@@ -14,7 +14,7 @@ Ce script Bash permet de gérer les règles de redirection de ports (port forwar
 Avant d'utiliser ce script, assurez-vous que :
 - NFTables est installé sur votre système. Si ce n'est pas le cas, le script tentera de l'installer automatiquement.
 - Vous disposez des permissions suffisantes (exécution avec sudo).
-- Le fichier de log `/var/log/portforward_nft.log` est accessible en écriture.
+- Le fichier de log `/var/log/nft.log` est accessible en écriture.
 
 ## Installation
 1. Clonez le dépôt GitHub contenant ce script :
