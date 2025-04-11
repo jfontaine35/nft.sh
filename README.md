@@ -87,7 +87,7 @@ Le script repose sur :
 Les contributions sont les bienvenues ! Si vous souhaitez améliorer ce projet, ouvrez une issue ou soumettez une pull request sur GitHub.
 
 ## Licence
-Ce projet est sous licence MIT. Vous êtes libre d'utiliser, modifier et redistribuer ce code sous les conditions de cette licence.
+Ce projet est sous licence [MIT](licence.txt). Vous êtes libre d'utiliser, modifier et redistribuer ce code sous les conditions de cette licence.
 
 ## Auteur
 Script développé par SI H3Campus.
